@@ -6,6 +6,7 @@
     text-shadow: none;
     line-height: 0;
     outline: 0;
+
     &::after {
       display: inline-block;
       font: normal normal normal 1em/1 "Nucleo";
@@ -16,10 +17,12 @@
       font-size: 1rem;
       content: "\ea48";
     }
+
     span {
       display: none !important;
     }
   }
+
   &.alert-dismissible {
     padding-right: 1.25rem;
   }
